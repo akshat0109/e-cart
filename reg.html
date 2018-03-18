@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>Online Shopping.in</title>
+<style>
+
+body{
+    background-image:url("background.jpg");
+   
+}
+input[type=text] {
+  width: 100px;
+  transition: width .75s ease-in-out;
+ 
+}
+input[type=text]:focus {
+  width: 250px;
+  background-color:lightblue;
+}
+.qw{
+    margin: 0px 10px 10px 350px;
+    border: 1px solid transparent;
+    width: 380px;
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:30px;
+	outline-style:outset;
+	color:black;
+	 background: linear-gradient(to bottom right,yellow,red,black);
+	    
+    
+}
+
+h2{
+    text-align:center;
+	font-size:50px;
+	padding-top:20px;
+	color:white;
+}
+#sd{
+    background-color:orange;
+	font-size:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Create Account</h2>
+<form name="sign_in"  method="post" action="signup_confirm.php" class="qw">
+Your name<br>
+<input type="text" placeholder="Name" name="name"><br><br>
+Mobile number<br>
+<input type="text" placeholder="Mobile no." name="mobile"><br><br>
+E-mail<br>
+<input type="text" placeholder="E-mail id" name="email"><br><br>
+Password<br>
+<input type="password" placeholder="password" name="password"><br><br>
+Confirm Password<br>
+<input type="password" placeholder="Retype password" name="cpassword"><br><br>
+<input id="sd" type="submit" value="                        Submit                        " ><br><br>
+Already have an account? <a href="file:///C:/wamp64/www/Project/log_in.html" target="connect"><font color="red"> Log in </font></a>
+
+</form>
+</body>
+</html>
